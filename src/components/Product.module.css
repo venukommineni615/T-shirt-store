@@ -1,0 +1,13 @@
+.ele{
+    margin:1rem;
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.size{
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 0.5rem;
+    width: 5rem;
+}

@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    background-color: blue;
+    color: whitesmoke;
+   justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+}
+.button{
+    background-color: white;
+    width: fit-content;
+    color: blue;
+    border: 0px;
+    height: fit-content;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon{
+    background-color: rgb(254, 254, 254);
+    color:blue;
+    width: 2rem;
+    margin-right: 1rem;
+
+}
+.count{
+    font-weight: bold;
+    font-size: large;
+}

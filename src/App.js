@@ -1,6 +1,6 @@
 import './App.css';
-import Form from './components/Form'
-import ProductList from './components/ProductList';
+import Form from './components/Form/Form'
+import ProductList from './components/Products/ProductList';
 import Header from './components/Header/Header';
 import ContextProvider from './store/ContextProvider'
 import Cart from './components/cart/Cart'

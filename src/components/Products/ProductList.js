@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import Product from "./Product";
 import styles from './ProductList.module.css'
-import ProductContext from "../store/ProductContext";
+import ProductContext from "../../store/ProductContext";
 const ProductList=()=>{
     const productCtx=useContext(ProductContext)
 

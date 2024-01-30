@@ -1,7 +1,7 @@
 import { useContext } from 'react'
 import styles from './Product.module.css'
-import CartContext from '../store/CartContext'
-import ProductContext from '../store/ProductContext'
+import CartContext from '../../store/CartContext'
+import ProductContext from '../../store/ProductContext'
 const Product = (props)=>{
     const cartCtx=useContext(CartContext)
     const productCtx=useContext(ProductContext)

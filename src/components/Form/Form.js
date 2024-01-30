@@ -1,6 +1,6 @@
 import { useContext, useRef } from 'react'
 import styles from './Form.module.css'
-import ProductContext from '../store/ProductContext'
+import ProductContext from '../../store/ProductContext'
 const Form = ()=>{
     const nameRef=useRef('')
     const descriptionRef=useRef('')

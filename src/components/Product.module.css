@@ -1,13 +1,31 @@
 .ele{
-    margin:1rem;
+    margin:1rem 2rem;
     list-style: none;
     padding: 0px;
     display: flex;
     justify-content: space-around;
+    background-color: white;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: 1px 0px 8px 0px white;
+
 }
 .size{
     border: 1px solid blue;
     border-radius: 5px;
+    height: fit-content;
+    width: 6rem;
     padding: 0.5rem;
-    width: 5rem;
+    background-color: blue;
+    color: white;
+    margin:0px auto;
+}
+.size:hover{
+    background-color: rgb(9, 9, 189);
+}
+.semicontainer{
+    width:50%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
 }

@@ -1,0 +1,27 @@
+.totalPrice{
+    display: flex;
+    justify-content: space-between;
+    color: blue;
+    font-weight: bold;
+
+}
+.buttonContainer{
+    display: flex;
+    justify-content: flex-end;
+}
+.orderButton{
+    margin-left: 1rem;
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 0.5rem;
+
+}
+.cancelButton{
+    color: blue;
+    background-color: white;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 0.5rem;
+}

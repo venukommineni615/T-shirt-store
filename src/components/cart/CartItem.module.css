@@ -1,0 +1,52 @@
+
+
+.ele {
+    margin: 0.5rem 0rem;
+    list-style: none;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    box-shadow: 1px 1px 5px 0px rgb(84, 81, 81);
+  }
+  
+  .size {
+    color: rgb(249, 249, 249);
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin: auto 0.5rem; 
+    width: fit-content;
+  }
+  
+  .content_container {
+    margin-right: auto;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .size_container {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .price {
+    font-weight: bold;
+    width: auto;
+    margin-left: auto; 
+  }
+  
+  .name,
+  .description {
+    margin: 0px 1rem;
+  }
+  
+  .container {
+    display: flex;
+    margin: 0 0.5rem;
+  }
+  

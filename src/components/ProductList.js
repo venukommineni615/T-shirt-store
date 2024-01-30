@@ -17,7 +17,7 @@ return(<>
          price={item.price}
          large={item.large}
          medium={item.medium}
-         small={item.samll}
+         small={item.small}
          ></Product>
     })}
     

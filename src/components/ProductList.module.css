@@ -1,6 +1,8 @@
 .list{
     border: 1px blue solid;
-    border-radius: 5px;
-    padding: 1rem;
+    border-radius: 10px;
+    padding: 1rem 4rem;
     margin: 1rem;
+   
+    color: blue;
 }

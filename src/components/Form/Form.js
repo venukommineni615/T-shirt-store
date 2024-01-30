@@ -32,31 +32,31 @@ const Form = ()=>{
         <form onSubmit={addProduct} className={styles.form}>
             <div className={styles.item}>
                 <div className={styles.container}>
-                    <label>T-shirt name</label>
-                    <input className={styles.input} type='text' name="shirtName" ref={nameRef} autoComplete="off"></input>
+                    <label htmlFor='name' style={{fontWeight:'bold'}}>T-shirt name</label>
+                    <input className={styles.input} type='text' name="shirtName" ref={nameRef} autoComplete="off" id='name'></input>
                 </div>
                 <div className={styles.container}>
-                    <label>description</label>
-                    <input className={styles.input} type='text' name='description' ref={descriptionRef} autoComplete="off"></input>
+                    <label htmlFor='description' style={{fontWeight:'bold'}}>description</label>
+                    <input id='description' className={styles.input} type='text' name='description' ref={descriptionRef} autoComplete="off"></input>
                 </div>
                 <div className={styles.container}>
-                    <label>Price</label>
-                    <input className={styles.input} type='number' name='price' ref={priceRef} autoComplete="off"></input>
+                    <label htmlFor='price' style={{fontWeight:'bold'}}>Price</label>
+                    <input id='price' className={styles.input} type='number' name='price' ref={priceRef} autoComplete="off"></input>
                 </div>
             </div>
             <div className={styles.quantity}>
-                <p>Quantity Available</p>
+                <p style={{fontWeight:'bold'}}>Quantity Available</p>
                 <div className={styles.sizeContainer}>
                     <div className={styles.container}>
-                        <label htmlFor='large'>Large</label>
+                        <label htmlFor='large' style={{fontWeight:'bold'}}>Large</label>
                         <input name='large' type='number' id='large' min='1' max='500' className={`${styles.size} ${styles.input}`} ref={largeRef} required></input>
                     </div>
                     <div className={styles.container}>
-                        <label htmlFor='medium'>Medium</label>
+                        <label htmlFor='medium' style={{fontWeight:'bold'}}>Medium</label>
                         <input ref={mediumRef} name='medium' type='number' id='medium' min='1' max='500' className={`${styles.size} ${styles.input}`} required></input>
                     </div>
                     <div className={styles.container}>
-                        <label htmlFor='small'>Small</label>
+                        <label htmlFor='small' style={{fontWeight:'bold'}} >Small</label>
                         <input ref={smallRef} name='small' type='number' id='small' min='1' max='500' className={`${styles.size} ${styles.input}`} required></input>
                     </div>
                 </div>

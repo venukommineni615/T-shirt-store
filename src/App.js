@@ -21,6 +21,7 @@ function App() {
     <div className="App">
       <ContextProvider>
       <Header openCart={openCart}></Header>
+      <h2>Add Product</h2>
       <Form></Form>
       <ProductList></ProductList>
       {toggleCart && <Cart closeCart={closeCart}></Cart>}

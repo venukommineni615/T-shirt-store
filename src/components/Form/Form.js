@@ -2,12 +2,12 @@ import { useContext, useRef } from 'react'
 import styles from './Form.module.css'
 import ProductContext from '../../store/ProductContext'
 const Form = ()=>{
-    const nameRef=useRef('')
-    const descriptionRef=useRef('')
-    const priceRef=useRef('')
-    const largeRef=useRef('')
-    const mediumRef=useRef('')
-    const smallRef=useRef('')
+    const nameRef=useRef()
+    const descriptionRef=useRef()
+    const priceRef=useRef()
+    const largeRef=useRef()
+    const mediumRef=useRef()
+    const smallRef=useRef()
     const productCtx=useContext(ProductContext)
     const addProduct=(event)=>{
         event.preventDefault()
@@ -33,15 +33,15 @@ const Form = ()=>{
             <div className={styles.item}>
                 <div className={styles.container}>
                     <label htmlFor='name' style={{fontWeight:'bold'}}>T-shirt name</label>
-                    <input className={styles.input} type='text' name="shirtName" ref={nameRef} autoComplete="off" id='name'></input>
+                    <input className={styles.input} type='text' name="shirtName" ref={nameRef} autoComplete="off" id='name' placeholder='Enter the T-shirt name'></input>
                 </div>
                 <div className={styles.container}>
-                    <label htmlFor='description' style={{fontWeight:'bold'}}>description</label>
-                    <input id='description' className={styles.input} type='text' name='description' ref={descriptionRef} autoComplete="off"></input>
+                    <label htmlFor='description' style={{fontWeight:'bold'}}>Description</label>
+                    <input id='description' className={styles.input} type='text' name='description' ref={descriptionRef} autoComplete="off" placeholder='cotton,fabric,..'></input>
                 </div>
                 <div className={styles.container}>
                     <label htmlFor='price' style={{fontWeight:'bold'}}>Price</label>
-                    <input id='price' className={styles.input} type='number' name='price' ref={priceRef} autoComplete="off"></input>
+                    <input id='price' className={styles.input} type='number' name='price' ref={priceRef} autoComplete="off" placeholder='$'></input>
                 </div>
             </div>
             <div className={styles.quantity}>

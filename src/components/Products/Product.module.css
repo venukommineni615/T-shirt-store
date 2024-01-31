@@ -4,10 +4,10 @@
     padding: 0px;
     display: flex;
     justify-content: space-around;
-    background-color: white;
+    background-color: rgb(240, 238, 238);
     border-radius: 10px;
     align-items: center;
-    box-shadow: 1px 0px 8px 0px white;
+    box-shadow: 1px 0px 2px 0px white;
 
 }
 .size{
@@ -16,7 +16,7 @@
     height: fit-content;
     width: 6rem;
     padding: 0.5rem;
-    background-color: blue;
+    background-color: rgb(62, 62, 222);
     color: white;
     margin:0px auto;
 }

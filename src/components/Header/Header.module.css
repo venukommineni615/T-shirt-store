@@ -1,15 +1,15 @@
 .header{
     display: flex;
-    background-color: blue;
+    background-color: rgb(62, 62, 222);
     color: whitesmoke;
    justify-content: space-between;
     padding: 1rem;
     align-items: center;
 }
 .button{
-    background-color: white;
+    background-color: rgb(240, 238, 238);
     width: fit-content;
-    color: blue;
+    color: rgb(62, 62, 222);
     border: 0px;
     height: fit-content;
     border-radius: 5px;
@@ -18,8 +18,8 @@
     align-items: center;
 }
 .icon{
-    background-color: rgb(254, 254, 254);
-    color:blue;
+    background-color: rgb(240, 238, 238);
+    color:rgb(62, 62, 222);
     width: 2rem;
     margin-right: 1rem;
 
